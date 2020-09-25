@@ -16,6 +16,7 @@
 		F5B5B4D7251E3CE000C4A1A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5B5B4D5251E3CE000C4A1A8 /* LaunchScreen.storyboard */; };
 		F5B5B4E2251E3CE100C4A1A8 /* ProductListingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B5B4E1251E3CE100C4A1A8 /* ProductListingTests.swift */; };
 		F5B5B4ED251E3CE100C4A1A8 /* ProductListingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B5B4EC251E3CE100C4A1A8 /* ProductListingUITests.swift */; };
+		F5B5B4FC251E481100C4A1A8 /* PLPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B5B4FB251E481100C4A1A8 /* PLPViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		F5B5B4E8251E3CE100C4A1A8 /* ProductListingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProductListingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5B5B4EC251E3CE100C4A1A8 /* ProductListingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListingUITests.swift; sourceTree = "<group>"; };
 		F5B5B4EE251E3CE100C4A1A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5B5B4FB251E481100C4A1A8 /* PLPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLPViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		F5B5B4C6251E3CDF00C4A1A8 /* ProductListing */ = {
 			isa = PBXGroup;
 			children = (
+				F5B5B4FA251E47B900C4A1A8 /* PLP */,
 				F5B5B4C7251E3CDF00C4A1A8 /* AppDelegate.swift */,
 				F5B5B4C9251E3CDF00C4A1A8 /* SceneDelegate.swift */,
 				F5B5B4CB251E3CDF00C4A1A8 /* ViewController.swift */,
@@ -129,6 +132,14 @@
 				F5B5B4EE251E3CE100C4A1A8 /* Info.plist */,
 			);
 			path = ProductListingUITests;
+			sourceTree = "<group>";
+		};
+		F5B5B4FA251E47B900C4A1A8 /* PLP */ = {
+			isa = PBXGroup;
+			children = (
+				F5B5B4FB251E481100C4A1A8 /* PLPViewController.swift */,
+			);
+			path = PLP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +277,7 @@
 				F5B5B4C8251E3CDF00C4A1A8 /* AppDelegate.swift in Sources */,
 				F5B5B4D2251E3CDF00C4A1A8 /* ProductListing.xcdatamodeld in Sources */,
 				F5B5B4CA251E3CDF00C4A1A8 /* SceneDelegate.swift in Sources */,
+				F5B5B4FC251E481100C4A1A8 /* PLPViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
